@@ -1,0 +1,16 @@
+SearchProductTest.class
+AddProduct.class
+pageobject\loginPage.class
+pageobject\RegistrationPage.class
+Task3.class
+pageobject\ProductDetailsPage.class
+pageobject\ProductPage.class
+pageobject\CompareProductPage.class
+util\configReader.class
+RegisterTest.class
+pageobject\BaseClass.class
+pageobject\SearchPage.class
+LoginTest.class
+util\configReader$Task4.class
+pageobject\WishListPage.class
+BaseTest.class

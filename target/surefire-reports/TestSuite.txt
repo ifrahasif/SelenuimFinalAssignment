@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 2.984 s <<< FAILURE! - in TestSuite
+setUp(SearchProductTest)  Time elapsed: 2.064 s  <<< FAILURE!
+org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized], extensions: []}}, error Command failed with code: 65, executed: [C:\Users\IFRAH~1.ASI\AppData\Local\Temp\selenium-manager258030320500740017015231575403698777\selenium-manager.exe, --browser, chrome, --output, json]
+error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: No such host is known. (os error 11001)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Command failed with code: 65, executed: [C:\Users\IFRAH~1.ASI\AppData\Local\Temp\selenium-manager258030320500740017015231575403698777\selenium-manager.exe, --browser, chrome, --output, json]
+error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: No such host is known. (os error 11001)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+
+setUp(AddProduct)  Time elapsed: 0.52 s  <<< FAILURE!
+org.openqa.selenium.remote.NoSuchDriverException: 
+Unable to obtain: Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized], extensions: []}}, error Command failed with code: 65, executed: [C:\Users\IFRAH~1.ASI\AppData\Local\Temp\selenium-manager258030320500740017015231575403698777\selenium-manager.exe, --browser, chrome, --output, json]
+error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: No such host is known. (os error 11001)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Command failed with code: 65, executed: [C:\Users\IFRAH~1.ASI\AppData\Local\Temp\selenium-manager258030320500740017015231575403698777\selenium-manager.exe, --browser, chrome, --output, json]
+error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: dns error: No such host is known. (os error 11001)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: ChromeDriver
+
